@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+.form-design {
+    background-color: rgb(239, 228, 249);
+    padding: 30px;
+    overflow: hidden;
+    border-radius: 10px; /* Added rounded corners */
+}
+
+.form-design input, .form-design select {
+    width: 100%;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 12px;
+    margin-bottom: 15px; /* Added spacing between elements */
+}
+
+.form-design input:focus, .form-design select:focus {
+    outline: 1px solid #04aa6d;
+}
+
+.form-design textarea {
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.form-design textarea:focus {
+    outline: 1px solid #04aa6d;
+}
+
+input[type=submit] {
+    background-color: #04aa6d;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type=submit]:hover {
+    background-color: #60278f;
+}
